@@ -15,6 +15,11 @@
 		AF87E90E24EE8661000C60EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF87E90C24EE8661000C60EC /* LaunchScreen.storyboard */; };
 		AF87E91924EE8661000C60EC /* CurrncalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF87E91824EE8661000C60EC /* CurrncalTests.swift */; };
 		AF87E92424EE8661000C60EC /* CurrncalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF87E92324EE8661000C60EC /* CurrncalUITests.swift */; };
+		AF87E93224EE9DED000C60EC /* FXCalculatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF87E93124EE9DED000C60EC /* FXCalculatorPresenter.swift */; };
+		AF87E93424EEA7DD000C60EC /* FXApiInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF87E93324EEA7DD000C60EC /* FXApiInteractor.swift */; };
+		AF87E93624EEA84C000C60EC /* NetworkQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF87E93524EEA84C000C60EC /* NetworkQuery.swift */; };
+		AF87E93824EEA875000C60EC /* WBCEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF87E93724EEA875000C60EC /* WBCEndpoint.swift */; };
+		AF87E93C24EEB2B8000C60EC /* WBCRatesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF87E93924EEA8C5000C60EC /* WBCRatesEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		AF87E91F24EE8661000C60EC /* CurrncalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrncalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF87E92324EE8661000C60EC /* CurrncalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrncalUITests.swift; sourceTree = "<group>"; };
 		AF87E92524EE8661000C60EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF87E93124EE9DED000C60EC /* FXCalculatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXCalculatorPresenter.swift; sourceTree = "<group>"; };
+		AF87E93324EEA7DD000C60EC /* FXApiInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXApiInteractor.swift; sourceTree = "<group>"; };
+		AF87E93524EEA84C000C60EC /* NetworkQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkQuery.swift; sourceTree = "<group>"; };
+		AF87E93724EEA875000C60EC /* WBCEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBCEndpoint.swift; sourceTree = "<group>"; };
+		AF87E93924EEA8C5000C60EC /* WBCRatesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBCRatesEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				AF87E90A24EE8661000C60EC /* Assets.xcassets */,
 				AF87E90C24EE8661000C60EC /* LaunchScreen.storyboard */,
 				AF87E90F24EE8661000C60EC /* Info.plist */,
+				AF87E93124EE9DED000C60EC /* FXCalculatorPresenter.swift */,
+				AF87E93324EEA7DD000C60EC /* FXApiInteractor.swift */,
+				AF87E93524EEA84C000C60EC /* NetworkQuery.swift */,
+				AF87E93724EEA875000C60EC /* WBCEndpoint.swift */,
+				AF87E93924EEA8C5000C60EC /* WBCRatesEntity.swift */,
 			);
 			path = Currncal;
 			sourceTree = "<group>";
@@ -260,8 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF87E90624EE865F000C60EC /* ViewController.swift in Sources */,
+				AF87E93624EEA84C000C60EC /* NetworkQuery.swift in Sources */,
 				AF87E90224EE865F000C60EC /* AppDelegate.swift in Sources */,
+				AF87E93224EE9DED000C60EC /* FXCalculatorPresenter.swift in Sources */,
 				AF87E90424EE865F000C60EC /* SceneDelegate.swift in Sources */,
+				AF87E93424EEA7DD000C60EC /* FXApiInteractor.swift in Sources */,
+				AF87E93824EEA875000C60EC /* WBCEndpoint.swift in Sources */,
+				AF87E93C24EEB2B8000C60EC /* WBCRatesEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
